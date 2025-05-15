@@ -7,7 +7,7 @@ from os.path import abspath
 DB_FILE = "chatbot.db"
 openai_api_key = st.secrets["OPENAI_API_KEY"]
 GUIDE = ""
-with open(abspath("Elysia\guide.txt"), 'r', encoding='UTF-8') as text:
+with open(abspath("guide.txt"), 'r', encoding='UTF-8') as text:
     GUIDE += text.read()
 
 # ----------- DB 관련 ----------- #
@@ -77,7 +77,7 @@ init_db()
 client = OpenAI(api_key=openai_api_key)
 st.title("Elysia")
 
-Elysia_img = abspath("Elysia\Elysia3.png")
+Elysia_img = abspath("Elysia3.png")
 
 # ------------- 세션 상태 ------------- #
 if "conversation_id" not in st.session_state:
