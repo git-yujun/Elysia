@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#7BB5F2"         # Light Coral – 버튼 및 주요 액션 색상
+backgroundColor = "#F5F5F5"      # White Smoke – 전체 배경색
+secondaryBackgroundColor = "#F7B3DA" # Baby Pink – 사이드바 등 보조 배경색
+textColor = "#2E2E2E"            # Charcoal Black – 일반 텍스트
+font = "sans serif"              # 기본 폰트 설정
